@@ -1,0 +1,36 @@
+<script type="text/javascript">
+    var part_pie_option = {
+        backgroundColor: 'rgba(0,0,0,0)',
+        title: {
+            text: '{{ name }}的消费类型分析',
+            x: 'center',
+            textStyle: {
+                fontSize: 24
+            }
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)",
+            textStyle: {
+                fontSize: 16
+
+            }
+        },
+        calculable: true,
+        series: [
+            {
+                name: '消费类型',
+                type: 'pie',
+                radius: '80%',
+                center: ['50%', '60%'],
+                label: {
+                    show: true,
+                    fontSize: 12
+                },
+                data: {{ part_data|safe }}
+            }
+        ]
+    };
+    var part_pie = echarts.init(document.getElementById('part-pie'));
+    part_pie.setOption(part_pie_option);
+</script>

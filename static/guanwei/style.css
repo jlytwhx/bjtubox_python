@@ -1,0 +1,117 @@
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+  background: wheat;
+}
+
+.circle {
+  position: absolute;
+  bottom: -35vw;
+  width: 100%;
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+}
+
+.introduce {
+  position: absolute;
+  top: 5vh;
+  width: 100%;
+  height: 70vh;
+  margin: 0;
+  padding: 0;
+}
+
+.introduce .background {
+  position: absolute;
+  width: 100vw;
+  height: 130vw;
+}
+
+.circle .cloud1 {
+  position: absolute;
+  top: 0;
+  left: 10vw;
+  width: 80vw;
+  height: 80vw;
+  transform-origin: center;
+  transition: 0.2s;
+  animation: rotate2 35s linear infinite;
+}
+
+.circle .bjtu-circle {
+  position: absolute;
+  top: 3vw;
+  left: 13vw;
+  width: 74vw;
+  height: 74vw;
+  transform-origin: center;
+  transition: 0.8s;
+  animation: rotate 30s linear infinite;
+}
+
+.circle .walk {
+  position: absolute;
+  top: 13vw;
+  left: 45vw;
+  width: 9vw;
+  height: 13vw;
+}
+.stage {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.stage img {
+  width: 100vw;
+  height: 90vw;
+}
+
+.index-cloud {
+  position: absolute;
+  top: 5vh;
+  width: 100%;
+}
+
+.index-cloud img {
+  width: 100vw;
+  height: 58vw;
+}
+
+.tongtong {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.tongtong img {
+  width: 34vw;
+  height: 40vw;
+  margin-left: 33vw;
+}
+.tongtong span{
+  position: absolute;
+  top: 16vw;
+  font-size: 20px;
+  left: 41.5vw;
+  z-index: 5;
+  width: 16vw;
+  text-align: center;
+}
+.title {
+  position: absolute;
+  top: 15vh;
+  width: 100%;
+}
+
+.title img {
+  width: 80vw;
+  height: 40vw;
+  margin-left: 10vw;
+}

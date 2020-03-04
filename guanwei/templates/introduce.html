@@ -1,0 +1,150 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>运动会接力</title>
+    <link href="{% static 'guanwei/index.css' %}" rel="stylesheet"/>
+    <link href="{% static 'guanwei/style.css' %}" rel="stylesheet"/>
+    <link href="{% static 'guanwei/loading.css' %}" rel="stylesheet"/>
+    <link href="{% static 'guanwei/animation.css' %}" rel="stylesheet"/>
+    <link href="{% static 'guanwei/swiper.min.css' %}" rel="stylesheet"/>
+    <link href="{% static 'guanwei/animate.min.css' %}" rel="stylesheet"/>
+</head>
+<body>
+<div id="loading">
+    <div class="loader" style="z-index: 100"></div>
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="index-cloud">
+                <img src="https://mp.bjtu.edu.cn/file/guanwei/index-cloud.png" alt="云彩"/>
+            </div>
+            <div class="title">
+                <img
+                        src="https://mp.bjtu.edu.cn/file/guanwei/title.png"
+                        alt="标题"
+                        class="ani"
+                        swiper-animate-effect="fadeInDown"
+                        swiper-animate-duration="1.5s"
+                        swiper-animate-delay="0.5s"
+                />
+            </div>
+            <div class="stage">
+                <img
+                        src="https://mp.bjtu.edu.cn/file/guanwei/stage.png"
+                        alt="舞台"
+                        class="ani"
+                        swiper-animate-effect="flip"
+                        swiper-animate-duration="1s"
+                        swiper-animate-delay="0s"
+                />
+            </div>
+            <div class="tongtong"
+            >
+                <span
+                        class="ani"
+                        swiper-animate-effect="wobble"
+                        swiper-animate-duration="1.5s"
+                        swiper-animate-delay="1.5s"
+                >{{ num }}</span>
+                <img
+                        src="https://mp.bjtu.edu.cn/file/guanwei/tongtong.png"
+                        alt="通通"
+                        class="ani"
+                        swiper-animate-effect="wobble"
+                        swiper-animate-duration="1.5s"
+                        swiper-animate-delay="1.5s"
+                />
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="introduce">
+                <img
+                        class="background ani"
+                        src="https://mp.bjtu.edu.cn/file/guanwei/introduce1.png"
+                        alt="introduce-background"
+                        swiper-animate-effect="rollIn"
+                        swiper-animate-duration="1.0s"
+                />
+            </div>
+            <div
+                    class="circle ani"
+                    swiper-animate-effect="fadeInUp"
+                    swiper-animate-duration="1.0s"
+                    swiper-animate-delay="1.0s"
+            >
+                <!--img src="https://mp.bjtu.edu.cn/file/guanwei/walk.gif" alt="walk" class="walk"-->
+                <img src="https://mp.bjtu.edu.cn/file/guanwei/cloud.png" alt="cloud1" class="cloud1"/>
+                <img
+                        src="https://mp.bjtu.edu.cn/file/guanwei/bjtu-circle.png"
+                        alt="circle"
+                        class="bjtu-circle"
+                />
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="introduce">
+                <img
+                        class="background ani"
+                        src="https://mp.bjtu.edu.cn/file/guanwei/introduce2.png"
+                        alt="introduce-background"
+                        swiper-animate-effect="bounce"
+                        swiper-animate-duration="1.0s"
+                />
+            </div>
+            <div
+                    class="circle ani"
+                    swiper-animate-effect="fadeInUp"
+                    swiper-animate-duration="1.0s"
+                    swiper-animate-delay="1.0s"
+            >
+                <!--img src="https://mp.bjtu.edu.cn/file/guanwei/walk.gif" alt="walk" class="walk"-->
+                <img src="https://mp.bjtu.edu.cn/file/guanwei/cloud.png" alt="cloud1" class="cloud1"/>
+                <img
+                        src="https://mp.bjtu.edu.cn/file/guanwei/bjtu-circle.png"
+                        alt="circle"
+                        class="bjtu-circle"
+                />
+            </div>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+<script src="https://mp.bjtu.edu.cn/file/swiper.animate1.0.3.min.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script src="{% static 'guanwei/index.js' %}"></script>
+<script>
+    wx.config({
+        debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+        appId: '{{ app_id }}', // 必填，公众号的唯一标识
+        timestamp: '{{ timestamp }}', // 必填，生成签名的时间戳
+        nonceStr: '{{  nonce_str }}', // 必填，生成签名的随机串
+        signature: '{{ signature }}', // 必填，签名
+        jsApiList: ['onMenuShareAppMessage', 'onMenuShareTimeline'], // 必填，需要使用的JS接口列表
+    });
+    wx.ready(function () {
+        //需在用户可能点击分享按钮前就先调用
+        wx.onMenuShareAppMessage({
+            title: '我是第{{ num }}棒北京交大校运会接力手!', // 分享标题
+            desc: '一起来为为校运会接力！更有机会赢取奖品', // 分享描述
+            link: 'https://mp.bjtu.edu.cn/guanwei/sport/', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: 'https://mp.bjtu.edu.cn/file/guanwei/fengmian.jpg', // 分享图标
+            success: function () {
+            },
+        });
+        wx.onMenuShareTimeline({
+            title: '我是第{{ num }}棒北京交大校运会接力手!', // 分享标题
+            desc: '一起来为为校运会接力！更有机会赢取奖品', // 分享描述
+            link: 'https://mp.bjtu.edu.cn/guanwei/sport/', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: 'https://mp.bjtu.edu.cn/file/guanwei/fengmian.jpg', // 分享图标
+            success: function () {
+            },
+        });
+    });
+</script>
+</body>
+</html>

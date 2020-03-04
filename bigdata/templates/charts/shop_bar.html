@@ -1,0 +1,49 @@
+<script type="text/javascript">
+    var shop_data = {{ shop_data|safe }};
+    var shop_bar_option = {
+        title: {
+            text: '{{ name }}最喜欢去的超市',
+            x: 'center',
+            textStyle: {
+                fontSize: 24
+            }
+        },
+        backgroundColor: 'rgba(0,0,0,0)',
+        tooltip: {
+            trigger: 'axis'
+        },
+        calculable: true,
+        xAxis: [
+            {
+                type: 'value',
+                axisLabel: {
+                    textStyle: {
+                        fontSize: 14
+                    }
+                },
+                boundaryGap: [0, 0.01]
+            }
+        ],
+        yAxis: [
+            {
+                type: 'category',
+                axisLabel: {
+                    rotate: 65,
+                    textStyle: {
+                        fontSize: 10
+                    }
+                },
+                data: Object.keys(shop_data)
+            }
+        ],
+        series: [
+            {
+                type: 'bar',
+                barWidth: '40%',
+                data: Object.values(shop_data)
+            }
+        ]
+    };
+    var shop_bar = echarts.init(document.getElementById('shop-bar'));
+    shop_bar.setOption(restaurant_bar_option);
+</script>

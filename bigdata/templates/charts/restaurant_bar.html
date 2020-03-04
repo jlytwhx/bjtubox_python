@@ -1,0 +1,49 @@
+<script type="text/javascript">
+    var restaurant_data = {{ restaurant_data|safe }};
+    var restaurant_bar_option = {
+        title: {
+            text: '{{ name }}最喜欢去的食堂',
+            x: 'center',
+            textStyle: {
+                fontSize: 24
+            }
+        },
+        backgroundColor: 'rgba(0,0,0,0)',
+        tooltip: {
+            trigger: 'axis'
+        },
+        calculable: true,
+        xAxis: [
+            {
+                type: 'value',
+                axisLabel: {
+                    textStyle: {
+                        fontSize: 20
+                    }
+                },
+                boundaryGap: [0, 0.01]
+            }
+        ],
+        yAxis: [
+            {
+                type: 'category',
+                axisLabel: {
+                    rotate: 65,
+                    textStyle: {
+                        fontSize: 10
+                    }
+                },
+                data: Object.keys(restaurant_data)
+            }
+        ],
+        series: [
+            {
+                type: 'bar',
+                barWidth: '40%',
+                data: Object.values(restaurant_data)
+            }
+        ]
+    };
+    var shop_bar = echarts.init(document.getElementById('restaurant-bar'));
+    shop_bar.setOption(shop_bar_option);
+</script>

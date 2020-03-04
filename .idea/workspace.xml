@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1593603-de63-4f22-9bfc-c107e8ceb45d" name="Default Changelist" comment="2019年10月9日19:26:15">
+      <change beforePath="$PROJECT_DIR$/bigdata/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjtubox/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bjtubox/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/update.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/update_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/course/update_course.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecard/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecard/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecard/output.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecard/output.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guanwei/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/guanwei/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guanwei/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/guanwei/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/job/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/person/update.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person/update_person.py" beforeDir="false" afterPath="$PROJECT_DIR$/person/update_person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/point/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/point/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule/update_schedule.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedule/update_schedule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/dean.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/dean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\import\OneDrive\桌面\bjtubox\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/webServers.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PsA4Wk6j6ly0YnAHMdMeBUuy35" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bjtubox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ecard" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ecard/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="output" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bjtubox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ecard" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ecard/output.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="update_person" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bjtubox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/person" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/person/update_person.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="update_schedule" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bjtubox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/schedule" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/schedule/update_schedule.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bjtubox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/guanwei" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guanwei/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bjtubox" type="Python.DjangoServer" factoryName="Django server">
+      <module name="bjtubox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="bjtubox.settings" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://ubuntu@mp.bjtu.edu.cn:22/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="0.0.0.0" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.bjtubox" />
+      <item itemvalue="Python.output" />
+      <item itemvalue="Python.update_schedule" />
+      <item itemvalue="Python.views" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.update_person" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.update_person" />
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.update_schedule" />
+        <item itemvalue="Python.output" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1593603-de63-4f22-9bfc-c107e8ceb45d" name="Default Changelist" comment="" />
+      <created>1566652240909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566652240909</updated>
+      <workItem from="1566652245548" duration="13000" />
+      <workItem from="1566652279542" duration="10000" />
+      <workItem from="1566658952116" duration="4428000" />
+      <workItem from="1566705936421" duration="1205000" />
+      <workItem from="1566880850963" duration="7440000" />
+      <workItem from="1566919013930" duration="10000" />
+      <workItem from="1566921877147" duration="1123000" />
+      <workItem from="1567082829222" duration="4000" />
+      <workItem from="1567165684411" duration="2276000" />
+      <workItem from="1567238733526" duration="431000" />
+      <workItem from="1567304649729" duration="1579000" />
+      <workItem from="1567404196034" duration="12000" />
+      <workItem from="1567470331920" duration="456000" />
+      <workItem from="1567513611394" duration="2000" />
+      <workItem from="1567514972663" duration="67000" />
+      <workItem from="1567588416660" duration="465000" />
+      <workItem from="1567642755594" duration="259000" />
+      <workItem from="1568028585642" duration="3008000" />
+      <workItem from="1568114156403" duration="371000" />
+      <workItem from="1568200700300" duration="1034000" />
+      <workItem from="1568205993584" duration="670000" />
+      <workItem from="1568284810130" duration="4034000" />
+      <workItem from="1568611673599" duration="368000" />
+      <workItem from="1568612521353" duration="1011000" />
+      <workItem from="1568647696894" duration="3587000" />
+      <workItem from="1568679861147" duration="6540000" />
+      <workItem from="1568719057933" duration="1754000" />
+      <workItem from="1568727240878" duration="69000" />
+      <workItem from="1568770423258" duration="71000" />
+      <workItem from="1568792828639" duration="428000" />
+      <workItem from="1568809877431" duration="1490000" />
+      <workItem from="1569197304381" duration="1052000" />
+      <workItem from="1569215885903" duration="1302000" />
+      <workItem from="1569328063500" duration="4026000" />
+      <workItem from="1570273174974" duration="583000" />
+      <workItem from="1570274007475" duration="1313000" />
+      <workItem from="1570277402398" duration="1623000" />
+      <workItem from="1570500352693" duration="81000" />
+      <workItem from="1570620366001" duration="975000" />
+      <workItem from="1571327061017" duration="3319000" />
+      <workItem from="1571375468645" duration="4082000" />
+      <workItem from="1571659639791" duration="9000" />
+      <workItem from="1574091752434" duration="2320000" />
+      <workItem from="1574940103416" duration="814000" />
+      <workItem from="1576633064734" duration="968000" />
+      <workItem from="1579431623724" duration="5347000" />
+      <workItem from="1581612995001" duration="118000" />
+      <workItem from="1582349129049" duration="7756000" />
+      <workItem from="1582641835415" duration="795000" />
+      <workItem from="1582975341735" duration="71000" />
+      <workItem from="1583120786781" duration="6711000" />
+      <workItem from="1583333624495" duration="2378000" />
+    </task>
+    <task id="LOCAL-00001" summary="2019年08月24日23:55:08 更新了ecard模块">
+      <created>1566662130588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566662130588</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2019年08月24日23:55:08 更新了ecard模块">
+      <created>1566662684682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566662684682</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2019年08月24日23:55:08 更新了ecard模块 修复bug">
+      <created>1566662828683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566662828683</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2019年08月24日23:55:08 更新了ecard模块 修复bug">
+      <created>1566665301261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566665301261</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2019年08月27日13:09:12 更新2019本科生数据">
+      <created>1566882562497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566882562497</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2019年08月27日13:09:12 更新2019本科生数据">
+      <created>1566889049007</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566889049007</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2019年08月27日13:09:12 更新2019本科生数据">
+      <created>1566889361338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566889361338</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2019年08月27日13:09:12 更新2019本科生数据">
+      <created>1566890083587</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566890083587</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2019年08月27日13:09:12 更新2019本科生数据">
+      <created>1566921982374</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566921982374</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2019年08月27日13:09:12 更新2019本科生数据">
+      <created>1566922223450</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1566922223450</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2019年08月27日13:09:12 更新2019本科生数据">
+      <created>1566922305749</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566922305749</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2019年08月30日19:55:50 就业系统登录">
+      <created>1567166158189</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1567166158189</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2019年10月9日19:26:15">
+      <created>1570620458659</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570620458659</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2019年08月24日23:55:08 更新了ecard模块" />
+    <MESSAGE value="2019年08月24日23:55:08 更新了ecard模块 修复bug" />
+    <MESSAGE value="2019年08月27日13:09:12 更新2019本科生数据" />
+    <MESSAGE value="2019年08月30日19:55:50 就业系统登录" />
+    <MESSAGE value="2019年10月9日19:26:15" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年10月9日19:26:15" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1860" height="282" key="GridCell.Tab.0.bottom" timestamp="1582370525702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1579448620349" />
+    <state width="1860" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582370525702" />
+    <state width="1860" height="282" key="GridCell.Tab.0.center" timestamp="1582370525702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1579448620349" />
+    <state width="1860" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582370525702" />
+    <state width="1860" height="282" key="GridCell.Tab.0.left" timestamp="1582370525702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1579448620349" />
+    <state width="1860" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582370525702" />
+    <state width="1860" height="282" key="GridCell.Tab.0.right" timestamp="1582370525702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1579448620349" />
+    <state width="1860" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582370525702" />
+    <state x="186" y="79" key="SettingsEditor" timestamp="1579434732532">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="186" y="79" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1579434732532" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583333624692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583333624692" />
+    <state x="636" y="119" width="647" height="801" key="find.popup" timestamp="1583335771018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="119" width="647" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583335771018" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1583334882464">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583334882464" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bjtubox$main.coverage" NAME="main Coverage Results" MODIFIED="1582354986185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ecard" />
+    <SUITE FILE_PATH="coverage/bjtubox$update_course__1_.coverage" NAME="update_course (1) Coverage Results" MODIFIED="1567309093775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course" />
+    <SUITE FILE_PATH="coverage/bjtubox$freeclass.coverage" NAME="freeclass Coverage Results" MODIFIED="1567642883196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/bjtubox$views.coverage" NAME="views Coverage Results" MODIFIED="1579434774660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guanwei" />
+    <SUITE FILE_PATH="coverage/bjtubox$update_course.coverage" NAME="update_course Coverage Results" MODIFIED="1566890471734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course" />
+    <SUITE FILE_PATH="coverage/bjtubox$update_schedule.coverage" NAME="update_schedule Coverage Results" MODIFIED="1568810032016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/schedule" />
+    <SUITE FILE_PATH="coverage/bjtubox$output.coverage" NAME="output Coverage Results" MODIFIED="1568288519241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ecard" />
+    <SUITE FILE_PATH="coverage/bjtubox$update_person.coverage" NAME="update_person Coverage Results" MODIFIED="1581613085709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/person" />
+  </component>
+</project>

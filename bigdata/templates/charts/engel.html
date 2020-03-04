@@ -1,0 +1,28 @@
+<script type="text/javascript">
+    var engel_option = {
+        tooltip: {
+            formatter: "{a} <br/>{b} : {c}%"
+        },
+
+        series: [
+            {
+                name: '{{ name }}的恩格尔系数',
+                type: 'gauge',
+                detail: {formatter: '{value}%', fontSize: 24},
+                title: {
+                    fontSize: 18
+                },
+                data: [{
+                    value: {{ engel }},
+                    name: '恩格尔系数',
+                    textStyle: {
+                        fontSize: 16
+                    }
+                }]
+            }
+        ]
+    };
+
+    var engel = echarts.init(document.getElementById('engel'));
+    engel.setOption(engel_option);
+</script>

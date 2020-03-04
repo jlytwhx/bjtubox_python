@@ -1,0 +1,96 @@
+<html lang="zh">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>测试</title>
+    <style>
+        body {
+            height: 100%;
+            width: 100%;
+            background: wheat;
+        }
+
+        .circle {
+            position: absolute;
+            bottom: -35vw;
+            height: 40vh;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .introduce {
+            position: absolute;
+            width: 100%;
+            height: 70vh;
+            top: 13vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .introduce .background {
+            width: 60vw;
+            height: 78vw;
+            left: 20vw;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0);
+            }
+            50% {
+                transform: rotate(180deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes rotate2 {
+            0% {
+                transform: rotate(360deg);
+            }
+            50% {
+                transform: rotate(180deg);
+            }
+            100% {
+                transform: rotate(0);
+            }
+        }
+
+        .circle .cloud1 {
+            position: absolute;
+            height: 80vw;
+            width: 80vw;
+            left: 10vw;
+            top: 0;
+            transition: 0.2s;
+            transform-origin: center;
+            animation: rotate2 35s linear infinite;
+        }
+
+
+        .circle .bjtu-circle {
+            position: absolute;
+            height: 74vw;
+            width: 74vw;
+            left: 13vw;
+            top: 3vw;
+
+            transition: 0.8s;
+            transform-origin: center;
+            animation: rotate 30s linear infinite;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="introduce">
+    <img class="background" src="introduce.png" alt="introduce-background">
+</div>
+<div class="circle">
+    <img src="cloud1.png" alt="cloud1" class="cloud1">
+    <img src="bjtu-circle.png" alt="circle" class="bjtu-circle">
+</div>
+</body>
+</html>
